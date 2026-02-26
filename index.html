@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P. Bhavya — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#hero" class="nav-logo">P.B</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+    <div class="hero-bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">P. Bhavya</h1>
+        <p class="hero-title">B.Tech — Computer Science (AI &amp; ML)</p>
+        <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+        <p class="hero-summary">
+            Third-year AI &amp; ML undergraduate with strong foundations in machine learning, 
+            data structures, and database systems. Passionate about building end-to-end AI-driven 
+            applications and bridging theoretical models with real-world implementation.
+        </p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-socials">
+            <a href="mailto:panthambhavya2@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <p>Scroll Down</p>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="section" id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    I'm a <strong>third-year Computer Science</strong> student specializing in 
+                    <strong>Artificial Intelligence &amp; Machine Learning</strong> at Sridevi Women's 
+                    Engineering College, Hyderabad. I love turning complex problems into elegant, 
+                    AI-driven solutions.
+                </p>
+                <p>
+                    My experience spans building intelligent applications with <strong>Python and Flask</strong>, 
+                    exploring <strong>NLP</strong>, computer vision, and applied research. I thrive at the 
+                    intersection of theory and practice — whether it's crafting a resume-screening algorithm 
+                    or designing a secure steganography system.
+                </p>
+                <p>
+                    When I'm not coding, you'll find me playing <strong>chess</strong>, reading fictional 
+                    literature, or exploring the latest breakthroughs in AI.
+                </p>
+            </div>
+            <div class="about-highlights">
+                <div class="highlight-card">
+                    <div class="highlight-icon"><i class="fas fa-brain"></i></div>
+                    <h3>AI & ML</h3>
+                    <p>Building intelligent systems with real-world impact</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon"><i class="fas fa-code"></i></div>
+                    <h3>Full-Stack AI Apps</h3>
+                    <p>End-to-end development with Python &amp; Flask</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Cybersecurity</h3>
+                    <p>Secure systems &amp; data confidentiality</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>8.7 CGPA</h3>
+                    <p>Strong academic foundation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="section section-alt" id="skills">
+    <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="skill-category-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">Java</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-icon"><i class="fas fa-tools"></i></div>
+                <h3>Frameworks & Tools</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Flask</span>
+                    <span class="skill-tag">OpenCV</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Jupyter Notebook</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-icon"><i class="fas fa-robot"></i></div>
+                <h3>AI & ML</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Data Preprocessing</span>
+                    <span class="skill-tag">Text Processing</span>
+                    <span class="skill-tag">Model Evaluation</span>
+                    <span class="skill-tag">Similarity Scoring</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-icon"><i class="fas fa-server"></i></div>
+                <h3>Core CS</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Data Structures & Algorithms</span>
+                    <span class="skill-tag">DBMS</span>
+                    <span class="skill-tag">Operating Systems</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section class="section" id="experience">
+    <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>AI Intern</h3>
+                        <span class="timeline-badge">Mar 2025 – Apr 2025</span>
+                    </div>
+                    <p class="timeline-company"><i class="fas fa-building"></i> Edunet Foundation (Microsoft)</p>
+                    <ul>
+                        <li>Worked on applied AI workflows including data preprocessing, feature analysis, and model evaluation.</li>
+                        <li>Developed problem-solving approaches for real-world use cases through iterative experimentation.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Cybersecurity Intern</h3>
+                        <span class="timeline-badge">May 2025 – Jul 2025</span>
+                    </div>
+                    <p class="timeline-company"><i class="fas fa-building"></i> IBM SkillsBuild</p>
+                    <ul>
+                        <li>Built a steganography-based secure web application using Python and Flask.</li>
+                        <li>Applied principles of data confidentiality and secure information handling in system design.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="section section-alt" id="projects">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-file-alt"></i></div>
+                <div class="project-tech">Python &bull; Flask</div>
+                <h3>AI Resume Screening & Ranking System</h3>
+                <p>
+                    Automated resume screening system for candidate shortlisting. Implements text 
+                    preprocessing, feature extraction, and ranking logic based on job-role similarity 
+                    within a Flask web app.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-lock"></i></div>
+                <div class="project-tech">Python &bull; Flask</div>
+                <h3>Steganography-Based Secure Communication</h3>
+                <p>
+                    Web application to encode and decode hidden data within images. 
+                    Focused on backend logic, secure data handling, and usability for 
+                    confidential communication.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-map-signs"></i></div>
+                <div class="project-tech">Python &bull; Graph Algorithms</div>
+                <h3>Indoor Navigation System (NavAR)</h3>
+                <p>
+                    Models rooms and connections as graph structures to compute shortest paths. 
+                    Uses Dijkstra's algorithm for efficient indoor route generation with modular, 
+                    scalable design.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-keyboard"></i></div>
+                <div class="project-tech">Python &bull; OpenCV</div>
+                <h3>Virtual Keyboard using Computer Vision</h3>
+                <p>
+                    Real-time virtual keyboard using hand gesture recognition. Addresses latency 
+                    and accuracy challenges in live video stream processing for seamless interaction.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section class="section" id="education">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-card">
+            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="edu-content">
+                <h3>B.Tech — Computer Science (AI &amp; ML)</h3>
+                <p class="edu-college">Sridevi Women's Engineering College</p>
+                <div class="edu-details">
+                    <span><i class="fas fa-calendar-alt"></i> 2023 – 2027</span>
+                    <span><i class="fas fa-star"></i> CGPA: 8.7 / 10.0</span>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="subsection-title">Certifications & Hackathons</h3>
+        <div class="certs-grid">
+            <div class="cert-badge"><i class="fas fa-certificate"></i> Microsoft–Edunet AI Internship</div>
+            <div class="cert-badge"><i class="fas fa-certificate"></i> IBM SkillsBuild Cybersecurity</div>
+            <div class="cert-badge"><i class="fas fa-certificate"></i> GUVI (IIT Madras) GenAI</div>
+            <div class="cert-badge"><i class="fas fa-certificate"></i> Infosys Springboard</div>
+            <div class="cert-badge"><i class="fas fa-award"></i> Adobe GenAI Hackathon</div>
+            <div class="cert-badge"><i class="fas fa-award"></i> Flipkart Grid 7.0</div>
+            <div class="cert-badge"><i class="fas fa-award"></i> Walmart Sparkathon</div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section section-alt" id="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-intro">
+            I'm always open to discussing new opportunities, collaborations, or just a friendly chat about AI!
+        </p>
+        <div class="contact-cards">
+            <a href="mailto:panthambhavya2@gmail.com" class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>panthambhavya2@gmail.com</p>
+            </a>
+            <a href="https://www.linkedin.com/in/panthambhavya" target="_blank" class="contact-card">
+                <i class="fab fa-linkedin-in"></i>
+                <h3>LinkedIn</h3>
+                <p>Connect with me</p>
+            </a>
+            <a href="https://github.com/Pantham1230" target="_blank" class="contact-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p>See my work</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 P. Bhavya. Crafted with <i class="fas fa-heart"></i></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
